@@ -41,7 +41,8 @@ def aHanoi(numRings, startPeg, endPeg):
 def cwhanoi(numRings, startPeg, endPeg):
 
     numMoves = 0
-    if 
+    if numRings > 0:
+        numMoves += hanoi(numRings - 1, startPeg, 6 - startPeg - endPeg)
 
 hanoi(3, 1, 3)
 # aHanoi(3, 1, 3)
