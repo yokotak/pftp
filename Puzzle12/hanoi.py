@@ -39,4 +39,4 @@ def aHanoi(numRings, startPeg, endPeg):
     return numMoves
 
 hanoi(3, 1, 3)
-aHanoi(3, 1, 3)
+# aHanoi(3, 1, 3)

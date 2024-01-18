@@ -29,4 +29,5 @@ def hanoi4pegs(numRings, startPeg, middlePeg, endPeg, fourthPeg):
 
 
 #hanoi4pegs(4, 1, 2, 3, 4)
-hanoi4pegs(8, 1, 2, 3, 4)
+print(hanoi4pegs(8, 1, 2, 3, 4))
+
